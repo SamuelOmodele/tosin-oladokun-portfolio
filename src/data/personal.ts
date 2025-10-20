@@ -7,7 +7,7 @@ export const personalData = {
     "",
   shorterDesc:
     "Mobile engineer specializing in building high-performance Android and iOS applications with Flutter, Swift, and Kotlin. Passionate about crafting seamless user experiences and contributing to innovative mobile solutions.",
-  site: "https://avneesh.tech",
+  site: "https://tosin-oladokun-portfolio.vercel.app",
   email: "ladisea55@gmail.com",
   x: "avneesh0612",
   keywords: [
