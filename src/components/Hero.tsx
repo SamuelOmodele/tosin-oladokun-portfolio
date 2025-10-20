@@ -91,7 +91,7 @@ export const Hero: FC = () => {
       </div>
 
       <Image
-        src="/picture.jpg"
+        src="/pic-tosin.jpg"
         alt={personalData.name}
         width={300}
         height={300}
