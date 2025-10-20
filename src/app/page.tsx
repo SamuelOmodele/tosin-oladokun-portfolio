@@ -1,12 +1,12 @@
 import { Hero, Main } from "@/components";
 import { personalData, socialLinks } from "@/data";
-import getUserDataAndPosts from "@/utils/getPosts";
+// import getUserDataAndPosts from "@/utils/getPosts";
 import { WebSite, WithContext } from "schema-dts";
 
-async function getPosts() {
-  const Posts = await getUserDataAndPosts("avneesh0612");
-  return Posts;
-}
+// async function getPosts() {
+//   const Posts = await getUserDataAndPosts("avneesh0612");
+//   return Posts;
+// }
 
 const jsonLd: WithContext<WebSite> = {
   "@context": "https://schema.org",
@@ -32,7 +32,7 @@ const jsonLd: WithContext<WebSite> = {
 };
 
 export default async function Home() {
-  const posts = await getPosts();
+  // const posts = await getPosts();
 
   return (
     <div className="flex flex-col px-0 pt-8 md:px-8 lg:px-18">
@@ -41,7 +41,7 @@ export default async function Home() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <Hero />
-      <Main posts={posts} />
+      <Main  />
     </div>
   );
 }

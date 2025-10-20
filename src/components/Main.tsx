@@ -4,13 +4,13 @@ import { Contact, Projects, Work } from "@/components";
 import { motion } from "framer-motion";
 import type { FC } from "react";
 // import { Blog } from "./Blog";
-import { PostType } from "@/types/PostType";
+// import { PostType } from "@/types/PostType";
 
-interface MainProps {
-  posts: PostType[];
-}
+// interface MainProps {
+//   posts: PostType[];
+// }
 
-export const Main: FC<MainProps> = ({ posts }) => {
+export const Main: FC = () => {
   return (
     <>
       <motion.div
