@@ -28,7 +28,7 @@ export const work = [
     role: "Mobile Engineer",
     description:
       "Developed the Farm Monitor mobile application (for farmers and field agents) that allows adding and mapping farmland, registering farmers, and visualising field boundaries and soil/land-profile data. Integrated yield-prediction and credit-scoring features, enabling the app to provide insights into expected crop output and farmer financial profile.",
-    timeline: "Feb 2025 - May 2025",
+    timeline: "April 2022 - May 2025",
     url: "https://play.google.com/store/apps/details?id=africa.farmmonitor.farm_monitor.corporate_app",
   }
 ];
