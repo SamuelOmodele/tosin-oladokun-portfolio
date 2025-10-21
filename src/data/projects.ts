@@ -23,7 +23,7 @@ export const projects = [
   {
     title: "Farm Monitor App",
     description: "Farm Monitor Africa is an AI-powered agritech platform designed to provide real-time monitoring, analytics and risk-management across farm operations — mapping farmland, assessing soil, forecasting yields, supporting credit-scoring for farmers and enabling financiers to track farm investments.",
-    timeline: "Feb 2022",
+    timeline: "April 2022",
     url: "https://play.google.com/store/apps/details?id=africa.farmmonitor.farm_monitor.corporate_app",
     // github: "https://github.com/avneesh0612/react-nextjs-snippets",
   },
