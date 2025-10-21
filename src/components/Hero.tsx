@@ -25,7 +25,7 @@ export const Hero: FC = () => {
               </RoughNotation>
             </h1>
             <p className="text-lg md:mt-4 md:text-xl lg:text-2xl font-light leading-relaxed text-neutral-900 dark:text-neutral-100 md:flex-2/3">
-              a dedicated Flutter developer passionate about crafting high-quality, efficient, and user-centric mobile applications.
+              a dedicated Flutter developer with 4 years of professional experience crafting high-quality, efficient, and user-centric mobile applications.
               I have solid experience in {" "}
               {/* Currently, I&apos;m the{" "}
               <RoughNotation
@@ -78,7 +78,7 @@ export const Hero: FC = () => {
 
         <div className="mt-8 flex items-center gap-4">
           <a
-            href="/OLADOKUN-TOSIN-RESUME.pdf"
+            href="/OLADOKUN_TOSIN_RESUME.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-4 py-2 rounded-md border border-neutral-300 dark:border-neutral-700 text-neutral-900 dark:text-neutral-100 hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-neutral-300 focus:ring-offset-2 dark:focus:ring-offset-background-dark"
